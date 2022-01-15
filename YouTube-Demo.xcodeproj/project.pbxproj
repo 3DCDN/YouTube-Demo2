@@ -17,6 +17,7 @@
 		CF811AB6278F820C0048FB08 /* VideoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811AB5278F820C0048FB08 /* VideoDetails.swift */; };
 		CF811AB8278F82AA0048FB08 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811AB7278F82AA0048FB08 /* Model.swift */; };
 		CF811ABC2790C8F20048FB08 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811ABB2790C8F20048FB08 /* Response.swift */; };
+		CF811ABE27933AC50048FB08 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811ABD27933AC50048FB08 /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CF811AB5278F820C0048FB08 /* VideoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetails.swift; sourceTree = "<group>"; };
 		CF811AB7278F82AA0048FB08 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CF811ABB2790C8F20048FB08 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CF811ABD27933AC50048FB08 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				CF811AA0278F5E850048FB08 /* SceneDelegate.swift */,
 				CF811AA2278F5E850048FB08 /* ViewController.swift */,
 				CF811AB3278F7E270048FB08 /* Constants.swift */,
+				CF811ABD27933AC50048FB08 /* ConstantsTemplate.swift */,
 				CF811AB5278F820C0048FB08 /* VideoDetails.swift */,
 				CF811AB7278F82AA0048FB08 /* Model.swift */,
 				CF811ABB2790C8F20048FB08 /* Response.swift */,
@@ -155,6 +158,7 @@
 				CF811AA3278F5E850048FB08 /* ViewController.swift in Sources */,
 				CF811A9F278F5E850048FB08 /* AppDelegate.swift in Sources */,
 				CF811AA1278F5E850048FB08 /* SceneDelegate.swift in Sources */,
+				CF811ABE27933AC50048FB08 /* ConstantsTemplate.swift in Sources */,
 				CF811AB8278F82AA0048FB08 /* Model.swift in Sources */,
 				CF811AB6278F820C0048FB08 /* VideoDetails.swift in Sources */,
 				CF811AB4278F7E270048FB08 /* Constants.swift in Sources */,
