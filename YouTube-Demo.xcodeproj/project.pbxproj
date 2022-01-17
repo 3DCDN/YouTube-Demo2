@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0913902795E62A000494E4 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09138F2795E62A000494E4 /* VideoTableViewCell.swift */; };
 		CF811A9F278F5E850048FB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811A9E278F5E850048FB08 /* AppDelegate.swift */; };
 		CF811AA1278F5E850048FB08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811AA0278F5E850048FB08 /* SceneDelegate.swift */; };
 		CF811AA3278F5E850048FB08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF811AA2278F5E850048FB08 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF09138F2795E62A000494E4 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		CF811A9B278F5E850048FB08 /* YouTube-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTube-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF811A9E278F5E850048FB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF811AA0278F5E850048FB08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0913912795E6CD000494E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF811AB5278F820C0048FB08 /* VideoDetails.swift */,
+				CF811AB7278F82AA0048FB08 /* Model.swift */,
+				CF811ABB2790C8F20048FB08 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF0913922795E6D7000494E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF09138F2795E62A000494E4 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF0913932795E6E0000494E4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF811AA2278F5E850048FB08 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CF0913942795E6ED000494E4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CF811AA4278F5E850048FB08 /* Main.storyboard */,
+				CF811AA9278F5E880048FB08 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CF0913952795E7B0000494E4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CF811AB3278F7E270048FB08 /* Constants.swift */,
+				CF811ABD27933AC50048FB08 /* ConstantsTemplate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CF0913962795E7D8000494E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF811AA7278F5E880048FB08 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CF811A92278F5E850048FB08 = {
 			isa = PBXGroup;
 			children = (
@@ -70,15 +124,12 @@
 			children = (
 				CF811A9E278F5E850048FB08 /* AppDelegate.swift */,
 				CF811AA0278F5E850048FB08 /* SceneDelegate.swift */,
-				CF811AA2278F5E850048FB08 /* ViewController.swift */,
-				CF811AB3278F7E270048FB08 /* Constants.swift */,
-				CF811ABD27933AC50048FB08 /* ConstantsTemplate.swift */,
-				CF811AB5278F820C0048FB08 /* VideoDetails.swift */,
-				CF811AB7278F82AA0048FB08 /* Model.swift */,
-				CF811ABB2790C8F20048FB08 /* Response.swift */,
-				CF811AA4278F5E850048FB08 /* Main.storyboard */,
-				CF811AA7278F5E880048FB08 /* Assets.xcassets */,
-				CF811AA9278F5E880048FB08 /* LaunchScreen.storyboard */,
+				CF0913942795E6ED000494E4 /* Storyboards */,
+				CF0913932795E6E0000494E4 /* View Controllers */,
+				CF0913922795E6D7000494E4 /* Views */,
+				CF0913912795E6CD000494E4 /* Models */,
+				CF0913952795E7B0000494E4 /* Helpers */,
+				CF0913962795E7D8000494E4 /* Resources */,
 				CF811AAC278F5E880048FB08 /* Info.plist */,
 			);
 			path = "YouTube-Demo";
@@ -163,6 +214,7 @@
 				CF811AB6278F820C0048FB08 /* VideoDetails.swift in Sources */,
 				CF811AB4278F7E270048FB08 /* Constants.swift in Sources */,
 				CF811ABC2790C8F20048FB08 /* Response.swift in Sources */,
+				CF0913902795E62A000494E4 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
