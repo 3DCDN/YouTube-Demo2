@@ -43,12 +43,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.video_cell_id, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.video_cell_id, for: indexPath) as! VideoTableViewCell
         
         // Configure the cell with the data
-        // Get the title for the video selected
-        let title = self.videos[indexPath.row].title
-        cell.textLabel?.text = title
+        // Grab the video for the selected row
+        let video = self.videos[indexPath.row]
+        cell.setVideoCell(vid: video)
         return cell 
     }
     
